@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import Auth from './components/Auth';
+import { StyleSheet, View, Text } from 'react-native';
+import Auth from './components/Auth/Auth';
 import Home from './components/Home';
 
 export default function App() {
